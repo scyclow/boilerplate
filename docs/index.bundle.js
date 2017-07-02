@@ -74,7 +74,7 @@ function _asyncToGenerator(fn) { return function () { var gen = fn.apply(this, a
 
 // import './index.css'
 var something = function () {
-  var _ref = _asyncToGenerator(regeneratorRuntime.mark(function _callee() {
+  var _ref = _asyncToGenerator(regeneratorRuntime.mark(function _callee(x) {
     return regeneratorRuntime.wrap(function _callee$(_context) {
       while (1) {
         switch (_context.prev = _context.next) {
@@ -89,7 +89,7 @@ var something = function () {
     }, _callee, this);
   }));
 
-  return function something() {
+  return function something(_x) {
     return _ref.apply(this, arguments);
   };
 }();

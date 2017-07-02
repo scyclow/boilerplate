@@ -1,10 +1,15 @@
 {
   "env": {
     "production": {
-      "presets": ["env"]
+      "presets": [
+        "env",
+        "flow"
+      ]
     },
     "development": {
-
+      "presets": [
+        "flow"
+      ]
     }
   }
 }
