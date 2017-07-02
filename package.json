@@ -3,7 +3,16 @@
   "version": "1.0.0",
   "description": "Boilerplate web project",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "build": "webpack --config config/webpack.prod.js"
+  },
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-env": "^1.5.2",
+    "html-webpack-plugin": "^2.29.0",
+    "webpack": "^3.0.0"
+  }
 }
