@@ -15,7 +15,7 @@ defaults.plugins.push(
 );
 
 defaults.devtool = 'cheap-module-source-map';
-defaults.module.plugins.push({
+defaults.module.rules.push({
   test: /\.css$/,
   use: [
     'style-loader',

@@ -4,7 +4,8 @@
   "description": "Boilerplate web project",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --config config/webpack.prod.js",
+    "start": "node ./scripts/start.js",
+    "build": "webpack --progress --config config/webpack.prod.js",
     "flow": "flow"
   },
   "author": "",
@@ -23,5 +24,9 @@
     "postcss-loader": "^2.0.6",
     "style-loader": "^0.18.2",
     "webpack": "^3.0.0"
+  },
+  "dependencies": {
+    "chalk": "^2.0.1",
+    "webpack-dev-server": "^2.5.0"
   }
 }
