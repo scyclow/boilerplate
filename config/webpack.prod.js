@@ -7,7 +7,9 @@ process.env.BABEL_ENV = "production";
 
 defaults.plugins.push(
   new webpack.DefinePlugin({
-    'process.env': {}
+    'process.env': {
+      NODE_ENV: 'production'
+    }
   })
 );
 

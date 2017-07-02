@@ -1,5 +1,7 @@
 // @flow
-// import './index.css'
+
+import st from './index.css'
+
 const something = async function (x: string) {
   return console.log('bleh')
 }

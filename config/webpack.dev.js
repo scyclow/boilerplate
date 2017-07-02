@@ -7,8 +7,12 @@ process.env.BABEL_ENV = "development";
 
 defaults.plugins.push(
   new webpack.DefinePlugin({
-    'process.env': {}
+    'process.env': {
+      NODE_ENV: 'development'
+    }
   })
 );
+
+defaults.devtool = 'cheap-module-source-map';
 
 module.exports = defaults;
