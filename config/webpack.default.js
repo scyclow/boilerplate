@@ -33,16 +33,6 @@ module.exports = {
         test: /\.js$/,
         exclude: /node_modules/,
         loader: "babel-loader"
-      }, {
-        test: /\.css$/,
-        use: ['style-loader', 'css-loader']
-          // {
-          //   loader: require.resolve('postcss-loader'),
-          //   options: {
-          //     ident: 'postcss', // https://webpack.js.org/guides/migrating/#complex-options
-          //     plugins: postcssPlugin,
-          //   },
-          // },
       }
     ]
   }
