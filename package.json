@@ -1,7 +1,6 @@
 {
-  "name": "boilerplate",
+  "name": "sound",
   "version": "1.0.0",
-  "description": "Boilerplate web project",
   "main": "index.js",
   "scripts": {
     "start": "node ./scripts/start.js",
@@ -21,6 +20,7 @@
     "extract-text-webpack-plugin": "^2.1.2",
     "flow-bin": "^0.56.0",
     "html-webpack-plugin": "^2.29.0",
+    "postcss-cssnext": "^3.0.2",
     "postcss-flexbugs-fixes": "^3.0.0",
     "postcss-loader": "^2.0.6",
     "style-loader": "^0.18.2",

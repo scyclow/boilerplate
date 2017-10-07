@@ -4,6 +4,7 @@ const autoprefixer = require('autoprefixer');
 
 module.exports = () => [
   require('postcss-flexbugs-fixes'),
+  require('postcss-cssnext'),
   autoprefixer({
     browsers: [
       '>1%',

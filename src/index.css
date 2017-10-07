@@ -3,4 +3,16 @@
   height: 50px;
   background-color: purple;
   display: flex;
+
+  & .blah {
+    width: 10px;
+    height: 10px;
+    background-color: green;
+  }
+}
+
+@media (width <= 200px) {
+  .bleh {
+    width: 100%;
+  }
 }
